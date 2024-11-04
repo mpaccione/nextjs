@@ -1,5 +1,5 @@
 # Use Node.js as the base image
-FROM node:18-alpine
+FROM node:20-alpine
 
 # Set working directory
 WORKDIR /app
@@ -14,7 +14,7 @@ COPY /app ./
 RUN npm install
 
 # Build the application
-# RUN npm run build
+RUN npm run build
 
 # Expose port 3000
 EXPOSE 3000
