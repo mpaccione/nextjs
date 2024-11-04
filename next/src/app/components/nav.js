@@ -15,6 +15,14 @@ const Nav = () => {
         </Button>
       </MenuTrigger>
       <MenuContent>
+      <MenuItem asChild value="home">
+          <a
+            href="/"
+            rel="noreferrer"
+          >
+            Homepage
+          </a>
+        </MenuItem>
         <MenuItem asChild value="dashboard">
           <a
             href="/dashboard"
