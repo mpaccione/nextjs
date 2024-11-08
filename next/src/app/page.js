@@ -12,7 +12,7 @@ import Image from "next/image"
 
 export default async function Page() {
   return (
-    <Box textAlign="center" fontSize="xl" pt="30vh">
+    <Box bg="cadetblue" fontSize="xl" padding="15px" pb="15vh" pt="15vh" textAlign="center">
       <VStack gap="8">
         <Image
           alt="chakra logo"

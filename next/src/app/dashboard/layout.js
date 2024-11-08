@@ -2,8 +2,8 @@ import { Box, Flex } from "@chakra-ui/react";
 
 const Dashboard = ({ feedCars, feedParts }) => {
     return (
-        <div>
-            <Flex>
+        <div style={{ backgroundColor: "cadetblue", padding: "15px" }}>
+            <Flex justifyContent="center">
                 <Box>
                     <h1>Cars Feed</h1>
                     <Flex column="4" gap="4">{feedCars}</Flex>
